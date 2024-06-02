@@ -8,6 +8,9 @@
 
   <author>Jason Yang</author>
 
+  <uses-permission    android:name="android.permission.BLUETOOTH_CONNECT"  />
+  <uses-permission   android:name="android.permission.BLUETOOTH_SCAN" />
+
   <engines>
     <engine name="cordova" version=">=5.0.0"/>
   </engines>
